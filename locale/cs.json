@@ -5,7 +5,7 @@
     },
     "restarter": {
         "start_timeout": "server se nestihl spustit v požadovaném čase",
-        "crash_detected": "pád detekován",
+        "crash_detected": "pád detekován!",
         "hang_detected": "přerušení připojení detekováno",
         "partial_hang_warn": "Kvůli částečnému přerušení připojení se tento server restartuje za 1 minutu. Odpojte se prosím.",
         "partial_hang_warn_discord": "Kvůli částečnému přerušení připojení se **%{servername}** restartuje za 1 minutu.",
@@ -17,24 +17,24 @@
         "kick_temporary": "(%{author}) Dostal jsi ban, důvod banu je: \"%{reason}\". Ban vyprší za: %{expiration}.",
         "kick_permanent": "(%{author}) Byl ti permanentně odebrán přístup k serveru a to z důvodu: \"%{reason}\".",
         "reject": {
-            "title_permanent": "You have been permanently banned from this server.",
-            "title_temporary": "You have been temporarily banned from this server.",
-            "label_expiration": "Your ban will expire in",
-            "label_date": "Ban Date",
-            "label_author": "Banned by",
-            "label_reason": "Ban Reason",
-            "label_id": "Ban ID",
-            "note_multiple_bans": "Note: you have more than one active ban on your identifiers."
+            "title_permanent": "Byl jsi permanentně zabanován na tomto serveru.",
+            "title_temporary": "Byl jsi dočasně zabanován na tomto serveru.",
+            "label_expiration": "Tvuj ban vyprší za:",
+            "label_date": "Datum banu:",
+            "label_author": "Ban udělil:",
+            "label_reason": "Důvod banu:",
+            "label_id": "Ban ID:",
+            "note_multiple_bans": "Poznámka: máš víc jak jeden aktivní ban na tvém identifikátoru."
         }
     },
     "whitelist_messages": {
         "admin_only": {
-            "mode_title": "This server is in <strong>Admin-only</strong> mode.",
-            "insufficient_ids": "You do not have <code>discord</code> or <code>fivem</code> identifiers, and at least one of them is required to validate if you are a txAdmin administrator.",
-            "deny_message": "Your identifiers are not assigned to any txAdmin administrator."
+            "mode_title": "Tento server je v <strong>Admin-only</strong> režimu!",
+            "insufficient_ids": "Nemáš <code>discord</code> nebo <code>fivem</code> identifikátor, a proto nemáš přístup k txAdmin menu.",
+            "deny_message": "Vaše identifikátory nejsou přiřazeny žádnému správci txAdmin."
         },
         "guild_member": {
-            "mode_title": "This server is in <strong>Discord Guild Member Whitelist</strong> mode.",
+            "mode_title": "Tento server je v <strong>Discord Guild Member Whitelist</strong> režimu!",
             "insufficient_ids": "You do not have the <code>discord</code> identifier, which is required to validate if you have joined our Discord Guild. Please open Discord and try again.",
             "deny_title": "You are required to join our Discord Guild to connect.",
             "deny_message": "Please join the guild %{guildname} then try again."
